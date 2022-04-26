@@ -1,0 +1,7 @@
+<!--pages/detaill-video/index.wxml-->
+<video class="video" 
+       src="{{mvUrlInfo.url}}"
+       referrer-policy="origin"
+       autoplay
+       loop>
+</video>

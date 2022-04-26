@@ -1,0 +1,81 @@
+/* pages/detail-search/index.wxss */
+page {
+  padding: 0 20rpx;
+  position: relative;
+  padding-top: 100rpx;
+}
+
+.search {
+  position: fixed;
+  top: 0;
+  left: 20rpx;
+  right: 20rpx;
+}
+
+.van-search__content {
+  background-color: #fff !important;
+}
+
+.hot {
+  padding: 30rpx
+}
+
+.hot .title {
+  font-size: 36rpx;
+  margin-bottom: 20rpx;
+}
+
+.hot .keywords {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hot .tag {
+  font-size: 26rpx;
+  background-color: #fff;
+  padding: 10rpx 12rpx;
+  border-radius: 16rpx;
+  margin-right: 20rpx;
+  margin-top: 20rpx;
+}
+
+.hot .tag:first-of-type {
+  color: #26ce8a;
+}
+
+/* 搜索建议(Suggest)的样式 */
+.suggest {
+  padding: 20rpx 30rpx;
+}
+
+.suggest .title {
+  color: #26ce8a;
+  font-size: 34rpx;
+  font-weight: 700;
+}
+
+.suggest .list-item {
+  display: flex;
+  align-items: center;
+  margin-top: 16rpx;
+}
+
+.suggest .list-item image.icon {
+  width: 66rpx;
+  margin-left: -20rpx;
+}
+
+.suggest .list-item .text {
+  font-size: 28rpx;
+}
+
+/* 搜索结果 */
+.result {
+  padding: 20rpx;
+}
+
+.result .title {
+  color: #26ce8a;
+  margin-left: 10rpx;
+  font-weight: bold;
+}
